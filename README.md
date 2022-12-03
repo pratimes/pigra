@@ -1,12 +1,12 @@
 # pigra
 
-Raspberry Pi monitoring System With Grafana, InfluxDB and Python scripts
+A simple Raspberry Pi monitoring System With Grafana, InfluxDB and Python scripts
 
 ## Setup
-* Run setup.sh
-* Copy python modules to `monitor` directory
+* Run setup.sh to install everything.
+* Copy python modules to `monitor` directory and use `crontab.content` to schedule them using crontab.
 * Verify influx DB have data
-* Copy JSON to grafana dashboard at <IP>:3000
+* Copy JSON to a new grafana dashboard at raspberry-pi-host-IP:3000 with influxDB as data source.
 * Verify if dashboard is correctly poplulated
 
 ## Screenshots
