@@ -1,0 +1,2 @@
+* * * * * /home/pi/monitor/monitor_system.py
+*/15 * * * * /home/pi/monitor/monitor_speedtest.py
